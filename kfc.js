@@ -26,7 +26,7 @@ for (const iterator of foodData) {
         },
     }
     { // Основа картки
-        refs.imgEl.src = "./img/test.png";
+        refs.imgEl.src = image;
         refs.nameEl.textContent = name;
         refs.descriptionEl.textContent = description;
     }
